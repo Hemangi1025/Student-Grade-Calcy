@@ -1,0 +1,117 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+h1{
+    margin: 0px 0px;
+    padding: 0px;
+    width: 500px;
+    color: #fff;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+   -moz-animation: glow 1s ease-in-out infinite alternate;
+   animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+
+#gradecalc{
+    height: 400px;
+    width: 400px;
+    background-color: limegreen;
+    position: relative;
+    left:430px;
+    top: 50px;
+    text-align: left;
+    word-spacing: 100px;
+    border-radius: 10px;
+    border: 1px solid limegreen;
+   padding: 10px;
+   box-shadow: 5px 10px 18px rgb(240, 240, 30);
+}
+
+
+input{
+    
+    width: 300px;
+    height: 30px;
+    font-size:20px ;
+    background-color: limegreen;
+    
+}
+
+input[type="text"]{
+    border:0;
+    border-bottom:1px solid white;
+    outline:0;
+}
+
+input:after{
+    background-color: limegreen;
+}
+
+.app-content{
+    margin-top: 45px;
+}
+
+#button{
+    margin-top:40px;
+    margin-left: -10px;
+    padding: 0px;
+    width: 260px;
+    height: 35px;
+    border: none;
+    outline: none;
+    font-size: 30px;
+    color: #cc0000;
+    font-weight: bold;
+    font-family: Times New Roman, Times, serif;
+
+}
+
+#showdata{
+    width:800px ;
+    height:120px ;
+    position: relative;
+    margin-left: -200px;
+    word-spacing:normal;
+    margin-top: 50px;
+
+    font-size: 25px;
+    font-weight: 900;
+    color: white;
+
+}
+
+#btn{
+    float: right;
+    font-size:20px;
+    background-color: red;
+    color: white;
+    border: none;
+    outline: none;
+    margin-top:-35px ;
+}
+
+
+
+
+
